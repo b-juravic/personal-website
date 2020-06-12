@@ -1,3 +1,18 @@
+## Component Design Notes/Hierarchy
+  * App
+  * Navigation
+  * About
+    * Image
+    * About section
+  * Projects
+    * Sections for company projects with gif and links to demo/github repo
+
+### Projects to showcase
+  * Jobly
+  * Microblog
+  * Warbler
+  * Meme It? showcase somthing prior to bootcamp
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
