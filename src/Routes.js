@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
 
-/** WIP */
+/** Renders routes for About, Projects, Contact */
 
 function Routes() {
 
@@ -18,7 +18,6 @@ function Routes() {
         </Route>
       </Switch>
     </div>
-
   );
 }
 
