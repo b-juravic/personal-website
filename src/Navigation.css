@@ -39,3 +39,10 @@ nav a:hover {
     font-size: 2.5em;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  nav {
+    font-size: 1.3rem;
+    max-height: 90px;
+  }
+}
