@@ -18,7 +18,6 @@ function About() {
       </div>
 
       <div className="About-content-container">
-        {/* <h4 className="About-title">ABOUT</h4> */}
         <p
           className="About-content text-left">
           {aboutP1}

@@ -1,9 +1,12 @@
+/* mobile first design */
+
+/* signature font */
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 .About {
   text-align: center;
   height: 100vh;
-  width: 70%;
+  width: 80%;
   margin: auto;
   font-size: .95rem;
   letter-spacing: .5px;
@@ -52,6 +55,14 @@
   transform: rotate(-6deg);
 }
 
+/* Updates for larger devices */
+
+@media screen and (min-width:600px) {
+  .About {
+    width: 70%;
+  }
+}
+
 @media screen and (min-width: 800px) {
   .About {
     font-size: 1.1rem;
@@ -78,9 +89,9 @@
 
 @media screen and (min-width: 1440px) {
   .About {
-    font-size: calc(1vw + 1vh + .5vmin);
+    font-size: calc(.5vw + .5vh + .5vmin);
   }
   .About-signature {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
   }
 }

@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
 
-/** Renders routes for About, Projects, Contact */
+/** Renders routes for About, Projects */
 
 function Routes() {
 
