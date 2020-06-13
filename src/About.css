@@ -80,4 +80,7 @@
   .About {
     font-size: calc(1vw + 1vh + .5vmin);
   }
+  .About-signature {
+    font-size: 3.5rem;
+  }
 }
