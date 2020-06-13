@@ -75,3 +75,9 @@
     font-size: 2.8rem;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .About {
+    font-size: calc(.8vw + .8vh + .5vmin);
+  }
+}

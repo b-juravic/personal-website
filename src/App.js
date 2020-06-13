@@ -4,6 +4,8 @@ import './App.css';
 import Navigation from "./Navigation";
 import Routes from "./Routes";
 
+/** Renders Navigation and Routes*/
+
 function App() {
   return (
     <BrowserRouter>

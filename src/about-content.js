@@ -1,3 +1,5 @@
+/** Each paragraph for the About component*/
+
 export const aboutP1 = "I’m Brittiany,  a new software engineer and former higher education professional. Last summer I began teaching myself JavaScript and I fell in love with programming. Several months later, I made the decision to pursue this passion full-time."
 
 export const aboutP2 = "Since then, I have attended Rithm School, a full stack web development bootcamp in San Francisco, and interned as a software engineer at CleverCounsel, a legal services software company. At CleverCounsel I had the opportunity to design, build, and test new features, and produce/ implement solutions for reported bugs."
