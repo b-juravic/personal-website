@@ -1,7 +1,6 @@
-/* @media screen and (min-width: 1000px) {
-  html {
-    font-size: calc(.8vw + .8vh + .5vmin);
-  }
-} */
-
-/* min-width: 1440px */
+body {
+  margin: 0;
+  background: RGB(62, 73, 91);
+  color: white;
+  padding-top: 90px;
+}

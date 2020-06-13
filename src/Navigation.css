@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* mobile first design */
+
+/* brand font */
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 nav {
@@ -29,6 +31,8 @@ nav a:hover {
   font-size: 2.2em;
   padding-bottom: 0%;
 }
+
+/* Updates for larger devices */
 
 @media screen and (min-width: 800px) {
   nav {
