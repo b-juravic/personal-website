@@ -1,0 +1,3 @@
+/** Each paragraph for the Projects component*/
+
+export const project1 = "Job search and application mock website with authentication and search functionality. Once a user has registered and/or logged in, they gain access to the private routes only accessible by authenticating. Users have the ability to browse all jobs and all companies with available jobs, as well as search jobs by title and search companies by name. Users can also apply to jobs and edit their user profile. Backend note: I wrote my own version of the backend; however, this deployed application uses a backend written by Rithm School so everyone would have the same code when building the frontend."

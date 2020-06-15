@@ -3,7 +3,11 @@ import { Route, Switch } from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
 
-/** Renders routes for About, Projects */
+/**
+ * Renders routes for About and Projects
+ *
+ * App -> Routes
+ */
 
 function Routes() {
 

@@ -1,8 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Navigation.css';
+import resume from "./resume-v1.pdf";
 
-/**WIP */
+/**
+ * Renders links for About, Projects, and Resume
+ *
+ * App -> Navigation
+ */
 
 function Navigation() {
 
@@ -19,9 +24,14 @@ function Navigation() {
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-item" to="/projects">
+          <NavLink className="nav-item mr-4" to="/projects">
             PROJECTS
           </NavLink>
+        </li>
+        <li>
+          <a className="nav-item" href={resume}>
+            RESUME
+          </a>
         </li>
       </ul>
     </nav>

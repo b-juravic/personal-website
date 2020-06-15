@@ -1,0 +1,98 @@
+/* mobile first design */
+
+.Projects {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  font-size: .95rem;
+  letter-spacing: .5px;
+}
+
+.heading-title, .title{
+  color: RGB(242, 112, 89);
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+.heading-title {
+  text-align: center;
+}
+
+.title {
+  float: left;
+}
+
+.gif-container {
+  display: inline-block;
+  position: relative;
+  background-color: #48556a;
+  padding: 2%;
+}
+
+.gif {
+  border: solid white;
+}
+
+.description-container {
+  display: inline-block;
+  background-color: #48556a;
+  text-align: left;
+}
+
+.description {
+  clear: both;
+}
+
+.extrenal-links {
+  color: RGB(242, 112, 89);
+  font-weight: bold;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  float: right;
+}
+
+.Project-row {
+  padding-bottom: 17%;
+}
+
+footer {
+  color: #00A8E8;
+  text-align: center;
+}
+
+a {
+  color: #00A8E8;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Updates for larger devices */
+
+@media screen and (min-width: 768px) {
+  .Projects {
+    font-size: 1.1rem;
+  }
+  .heading-title, .title {
+    font-size: 1.5rem;
+  }
+  .heading-title {
+    text-align: left;
+  }
+  .Project-row {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .Projects {
+    font-size: calc(.5vw + .5vh + .5vmin);
+  }
+}
