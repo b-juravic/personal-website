@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Navigation.css';
-import resume from "./resume-v1.pdf";
+import resume from "./resume.pdf";
 
 /**
  * Renders links for About, Projects, and Resume
