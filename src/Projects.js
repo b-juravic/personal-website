@@ -3,7 +3,7 @@ import "./Projects.css";
 import { project1 } from "./projects-content";
 
 /**
- * Renders info about each project, including external links to demo and GitHub.
+ * Renders info about each project, including external links to deployed demo and GitHub.
  *
  * App -> Routes -> Projects
  */
