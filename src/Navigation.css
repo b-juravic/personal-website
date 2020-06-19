@@ -21,7 +21,7 @@ nav a:visited {
   color: #00A8E8;
 }
 
-nav a:hover {
+ul a:hover {
   text-decoration: none;
   color: white;
 }
@@ -41,6 +41,11 @@ nav a:hover {
 
   .navbar-brand {
     font-size: 2.5em;
+  }
+
+  /* add margin when navbar links expand (md size screen and larger) */
+  .md-margin {
+    margin-right: calc(1rem * 1.5);
   }
 }
 

@@ -1,0 +1,66 @@
+/* mobile first design */
+
+.Home {
+  display: flex;
+  width: 90%;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-name {
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.intro-title {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.intro-tagline {
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: #00A8E8
+}
+
+hr {
+  background-color: white;
+}
+
+/* Updates for larger devices */
+
+@media screen and (min-width:375px) and (min-height: 375px) {
+  .intro-name {
+    font-size: 2.9rem;
+  }
+
+  .intro-title {
+    font-size: 2.2rem;
+  }
+
+  .intro-tagline {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-height: 1024px), (min-width: 1024px) {
+  .intro-name {
+    font-size: 4rem;
+  }
+
+  .intro-title {
+    font-size: 3.3rem;
+  }
+
+  .intro-tagline {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro-tagline {
+    font-size: 2.5rem;
+  }
+}
