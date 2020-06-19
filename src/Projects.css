@@ -29,7 +29,6 @@
 .gif-container {
   display: inline-block;
   position: relative;
-  background-color: #48556a;
   padding: 2%;
 }
 
@@ -39,7 +38,6 @@
 
 .description-container {
   display: inline-block;
-  background-color: #48556a;
   text-align: left;
 }
 
