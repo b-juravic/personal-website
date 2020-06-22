@@ -88,7 +88,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1680px) {
   .About {
     font-size: calc(.5vw + .5vh + .5vmin);
   }
