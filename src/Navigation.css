@@ -49,9 +49,10 @@ ul a:hover {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1680px) {
   nav {
     font-size: 1.3rem;
     max-height: 90px;
   }
 }
+
