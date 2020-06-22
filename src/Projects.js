@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { project1 } from "./projects-content";
+import ScrollToTopOnMount from "./ScrollToTopOnMount";
 
 /**
  * Renders info about each project, including external links to deployed demo and GitHub.
@@ -12,6 +13,7 @@ function Projects() {
 
   return (
     <div className="Projects container-fluid">
+      <ScrollToTopOnMount />
       <div className="heading-row row justify-content-around">
         <h4 className="heading-title col-11">PROJECTS</h4>
       </div>

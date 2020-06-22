@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import headShot from "./headshot.JPG";
 import { aboutP1, aboutP2, aboutP3, aboutP4, aboutP5, aboutP6, aboutP7, aboutP8 } from "./about-content";
+import ScrollToTopOnMount from "./ScrollToTopOnMount";
 
 /** Renders headshot and about content.
  *
@@ -12,6 +13,7 @@ function About() {
 
   return (
     <div className="About">
+      <ScrollToTopOnMount />
       <div className="headshot-container">
         <img src={headShot} className="headshot" alt="head shot" />
       </div>
