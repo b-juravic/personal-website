@@ -89,7 +89,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1680px) {
   .Projects {
     font-size: calc(.5vw + .5vh + .5vmin);
   }
