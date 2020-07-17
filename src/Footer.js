@@ -6,7 +6,7 @@ import "./Footer.css";
 /**
  * Renders footer with contact info, including media profiles
  *
- * App -> Footer
+ * App -> Routes -> Footer
 */
 
 function Footer() {

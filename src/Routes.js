@@ -3,9 +3,10 @@ import { Route, Switch } from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
 import Home from "./Home";
+import Footer from "./Footer";
 
 /**
- * Renders routes for About, Projects, and Home
+ * Renders routes for About and Projects (both with Footer), and Home
  *
  * App -> Routes
  */
@@ -17,9 +18,11 @@ function Routes() {
       <Switch>
         <Route exact path="/about">
           <About />
+          <Footer />
         </Route>
         <Route exact path="/projects">
           <Projects />
+          <Footer />
         </Route>
         <Route exact path="/">
           <Home />
