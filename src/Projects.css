@@ -26,13 +26,13 @@
   float: left;
 }
 
-.gif-container {
+.project-img-container {
   display: inline-block;
   position: relative;
   padding: 2%;
 }
 
-.gif {
+.project-img {
   border: solid white;
 }
 
