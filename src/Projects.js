@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projects.css";
-import { project1 } from "./projects-content";
+import { project1, project1Images } from "./projects-content";
 import ScrollToTopOnMount from "./ScrollToTopOnMount";
-import jobly from "./images/jobly.png";
+import Carousel from "./Carousel";
 
 /**
- * Renders info about each project, including external links to deployed demo and GitHub.
+ * Renders info about each project, including Carousel of images and external links to deployed demo and GitHub.
  *
  * App -> Routes -> Projects
  */
@@ -19,14 +19,10 @@ function Projects() {
         <h4 className="heading-title col-11">PROJECTS</h4>
       </div>
       <div className="Project-row row justify-content-around align-items-center">
-        <div className="project-img-container col-10 col-md-5 rounded mt-2">
-          <img
-            src={jobly}
-            alt="jobly home page"
-            className="project-img img-fluid rounded">
-          </img>
+        <div className="project-img-container col-10 col-md-8 col-lg-5 rounded mt-2">
+          <Carousel items={project1Images} />
         </div>
-        <div className="description-container col-10 col-md-5 rounded mt-2">
+        <div className="description-container col-10 col-md-8 col-lg-5 rounded mt-2">
           <h1 className="title">Jobly</h1>
           <span className="extrenal-links">
             <a
