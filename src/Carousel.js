@@ -5,7 +5,7 @@ import "./Carousel.css";
  * Renders carousel of images for display
  *
  * Props
- * -- items: [{src: "", alt: ""}, {}, ...]
+ * -- items: [{srcMd: "", srcLg:"", alt: ""}, {}, ...]
  *
  * App -> Routes -> Projects -> Carousel
  */
