@@ -26,11 +26,12 @@ function Carousel({ items }) {
     setCurrentIdx(newIdx);
   }
 
-  const carouselItems = items.map(({ src, alt }, idx) => (
+  const carouselItems = items.map(({ srcMd, srcLg, alt }, idx) => (
     <CarouselItem
-      src={src}
+      srcMd={srcMd}
+      srcLg={srcLg}
       altText={alt}
-      key={`${src}.${alt}`}
+      key={`${srcMd}.${alt}`}
       activeIdx={currentIdx}
       idx={idx}
     />
