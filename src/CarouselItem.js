@@ -15,22 +15,21 @@ import "./CarouselItem.css";
 
 function CarouselItem({ srcMd, srcLg, altText, activeIdx, idx }) {
 
-
   return (
-    <div className={
-      idx === activeIdx
-        ? "CarouselItem active"
-        : "CarouselItem inactive"
-    }>
-      <picture>
-        <source srcSet={srcLg} media="screen and (min-width: 900px)"></source>
-        <img
-          className="carousel-img"
-          src={srcMd}
-          alt={altText}>
-        </img>
-      </picture>
-    </div>
+    idx === activeIdx
+      ?
+      <div className="CarouselItem active">
+        <picture>
+          <source srcSet={srcLg} media="screen and (min-width: 900px)"></source>
+          <img
+            className="carousel-img"
+            src={srcMd}
+            alt={altText}>
+          </img>
+        </picture>
+      </div>
+      :
+      <div className="CarouselItem inactive"></div>
   );
 }
 
