@@ -1,8 +1,17 @@
 import React from "react";
 import "./About.css";
-import headShot from "./images/headshot-250.JPG";
-import { aboutP1, aboutP2, aboutP3, aboutP4, aboutP5, aboutP6, aboutP7, aboutP8 } from "./about-content";
 import ScrollToTopOnMount from "./ScrollToTopOnMount";
+import headShot from "./images/headshot-250.JPG";
+import {
+  aboutP1,
+  aboutP2,
+  aboutP3,
+  aboutP4,
+  aboutP5,
+  aboutP6,
+  aboutP7
+} from "./about-content";
+
 
 /** Renders headshot and about content.
  *
@@ -48,10 +57,6 @@ function About() {
         <p
           className="About-content text-left">
           {aboutP7}
-        </p>
-        <p
-          className="About-content text-left">
-          {aboutP8}
         </p>
         <h1 className="About-signature">Brittiany Juravic!</h1>
       </div>
