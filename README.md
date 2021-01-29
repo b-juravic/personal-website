@@ -2,8 +2,8 @@
 
 <em>A mobile first responsive single page React application</em>
 
-### Check it out [here](https://jobly.demo.brittianyjuravic.com/)!
-![Jobly home page](./bmj-home-page.png "Jobly home page on multiple devices")
+### Check it out [here](https://www.brittianyjuravic.com/)!
+![Brittiany Juravic's home page](./bmj-home-page.png "Showcasing responsive design across multiple devices")
 
 --------------------------
 ## Installation & Setup
