@@ -6,10 +6,6 @@ import {
   aboutP1,
   aboutP2,
   aboutP3,
-  aboutP4,
-  aboutP5,
-  aboutP6,
-  aboutP7
 } from "./about-content";
 
 
@@ -42,22 +38,6 @@ function About() {
           className="About-content text-left">
           {aboutP3}
         </p>
-        <p
-          className="About-content text-left">
-          {aboutP4}
-        </p>
-        <p
-          className="About-content text-left">
-          {aboutP5}
-        </p>
-        <p
-          className="About-content text-left">
-          {aboutP6}
-        </p>
-        <p
-          className="About-content text-left">
-          {aboutP7}
-        </p>
         <h1 className="About-signature">Brittiany Juravic!</h1>
       </div>
     </div>
@@ -65,4 +45,3 @@ function About() {
 }
 
 export default About;
-

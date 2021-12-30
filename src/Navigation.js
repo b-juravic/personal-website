@@ -31,7 +31,11 @@ function Navigation() {
           </NavLink>
         </li>
         <li>
-          <a className="nav-item" href={resume}>
+          <a
+            className="nav-item"
+            href={resume}
+            target="_blank"
+            rel="noreferrer noopener">
             RESUME
           </a>
         </li>
