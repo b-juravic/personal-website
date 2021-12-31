@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import ScrollToTopOnMount from "./ScrollToTopOnMount";
-import headShot from "./images/headshot-250.JPG";
+import headShot from "./images/headshot-250-minified.JPG";
 import {
   aboutP1,
   aboutP2,
