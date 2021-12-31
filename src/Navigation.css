@@ -21,15 +21,26 @@ nav a:visited {
   color: #00A8E8;
 }
 
-ul a:hover {
-  text-decoration: none;
+nav a:hover {
   color: white;
+}
+
+nav a.active {
+  text-decoration: wavy overline white;
+}
+
+nav a.active, a:hover {
+  color: #00A8E8;
 }
 
 .navbar-brand {
   font-family: 'Zeyada', cursive;
   font-size: 2.2em;
   padding-bottom: 0%;
+}
+
+.navbar-brand:hover {
+  color: white;
 }
 
 /* Updates for larger devices */

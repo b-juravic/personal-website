@@ -16,7 +16,10 @@ function Home() {
           <h1 className="intro-name">I'm Brittiany,</h1>
           <h2 className="intro-title">a software engineer.</h2>
           <hr className="my-4"></hr>
-          <h4 className="intro-tagline">I love debugging and trying to break {"{test}"} things!</h4>
+          <h4
+            className="intro-tagline">
+            I teach, solve problems, and build web applications.
+          </h4>
         </div>
       </div>
   </div>
