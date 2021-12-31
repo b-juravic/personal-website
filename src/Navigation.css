@@ -29,6 +29,10 @@ nav a.active {
   text-decoration: wavy overline white;
 }
 
+nav a.active, a:hover {
+  color: #00A8E8;
+}
+
 .navbar-brand {
   font-family: 'Zeyada', cursive;
   font-size: 2.2em;
