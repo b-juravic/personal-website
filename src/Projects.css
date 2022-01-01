@@ -8,70 +8,14 @@
   letter-spacing: .5px;
 }
 
-.heading-title, .title{
+.heading-title {
   color: RGB(242, 112, 89);
   font-weight: bold;
   padding-top: .3rem;
   padding-bottom: 2%;
   letter-spacing: 2px;
   font-size: 1.1rem;
-}
-
-.heading-title {
   text-align: center;
-}
-
-.title {
-  float: left;
-}
-
-.project-img-container {
-  display: inline-block;
-  position: relative;
-}
-
-.project-img {
-  border: solid white;
-}
-
-.CarouselItem {
-  width: 100%;
-}
-
-.description-container {
-  display: inline-block;
-  text-align: left;
-}
-
-.description {
-  clear: both;
-}
-
-.extrenal-links {
-  color: RGB(242, 112, 89);
-  font-weight: bold;
-  padding-top: 3%;
-  padding-bottom: 2%;
-  letter-spacing: 2px;
-  font-size: 1.1rem;
-  float: right;
-}
-
-.Project-row {
-  padding-bottom: 17%;
-}
-
-footer {
-  color: #00A8E8;
-  text-align: center;
-}
-
-a {
-  color: #00A8E8;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 /* Updates for larger devices */
@@ -80,19 +24,14 @@ a:hover {
   .Projects {
     font-size: 1.1rem;
   }
-  .heading-title, .title {
-    font-size: 1.5rem;
-  }
   .heading-title {
+    font-size: 1.5rem;
     text-align: left;
-  }
-  .Project-row {
-    padding-bottom: 0;
   }
 }
 
 @media screen and (min-width: 768px) and (orientation: portrait), (min-width: 1024px) and (min-height: 800px) {
-  .heading-title, .title {
+  .heading-title {
     padding-top: 1.5rem;
   }
 }
@@ -102,7 +41,7 @@ a:hover {
     font-size: calc(.5vw + .5vh + .5vmin);
   }
 
-  .heading-title, .title {
+  .heading-title {
     padding-top: 2.5rem;
   }
 }
