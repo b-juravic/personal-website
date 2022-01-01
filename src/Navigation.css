@@ -26,7 +26,8 @@ nav a:hover {
 }
 
 nav a.active {
-  text-decoration: wavy overline white;
+  text-decoration: wavy underline white;
+  text-underline-position: under;
 }
 
 nav a.active, a:hover {

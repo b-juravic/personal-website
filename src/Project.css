@@ -1,0 +1,85 @@
+/* mobile first design */
+
+.title {
+  color: RGB(242, 112, 89);
+  font-weight: bold;
+  padding-top: .3rem;
+  padding-bottom: 2%;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  float: left;
+}
+
+.project-img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  border: solid white;
+  border-radius: .5rem;
+}
+
+.description-container {
+  display: inline-block;
+  text-align: left;
+}
+
+.description {
+  clear: both;
+}
+
+.external-links {
+  color: RGB(242, 112, 89);
+  font-weight: bold;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  float: right;
+}
+
+.project-row {
+  padding-bottom: 10%;
+}
+
+footer {
+  color: #00A8E8;
+  text-align: center;
+}
+
+a {
+  color: #00A8E8;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Updates for larger devices */
+
+@media screen and (min-width: 768px) and (orientation: portrait), (min-width: 1024px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait), (min-width: 1024px) and (min-height: 800px) {
+  .title {
+    padding-top: 1.5rem;
+  }
+  .project-row {
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .title {
+    padding-top: 2.5rem;
+  }
+  .project-row {
+    padding-bottom: 5%;
+  }
+}

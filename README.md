@@ -1,6 +1,6 @@
 ## `Brittiany Juravic's Personal Website!`
 
-<em>A mobile first responsive single page React application</em>
+<em>A mobile-first, responsive, single-page React application</em>
 
 ### Check it out [here](https://www.brittianyjuravic.com/)!
 ![Brittiany Juravic's home page](./bmj-home-page.png "Showcasing responsive design across multiple devices")
