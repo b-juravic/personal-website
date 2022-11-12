@@ -20,10 +20,10 @@ function Routes() {
           <About />
           <Footer />
         </Route>
-        <Route exact path="/projects">
+        {/* <Route exact path="/projects">
           <Projects />
           <Footer />
-        </Route>
+        </Route> */}
         <Route exact path="/">
           <Home />
         </Route>

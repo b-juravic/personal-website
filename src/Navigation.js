@@ -25,11 +25,11 @@ function Navigation() {
             ABOUT
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink className="nav-item md-margin" to="/projects">
             PROJECTS
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <a
             className="nav-item"
