@@ -7,6 +7,13 @@ import resume from "./resume.pdf";
  * Renders links for Home, About, Projects, and Resume
  *
  * App -> Navigation
+ *
+ * TODO: temporarily removed projects from nav- when ready add this back in:
+ * <li>
+ *   <NavLink className="nav-item md-margin" to="/projects">
+ *     PROJECTS
+ *    </NavLink>
+ * </li>
  */
 
 function Navigation() {
@@ -25,11 +32,6 @@ function Navigation() {
             ABOUT
           </NavLink>
         </li>
-        {/* <li>
-          <NavLink className="nav-item md-margin" to="/projects">
-            PROJECTS
-          </NavLink>
-        </li> */}
         <li>
           <a
             className="nav-item"
