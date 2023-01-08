@@ -23,7 +23,8 @@ function Navigation() {
       <span
         id="logo"
         className="navbar-brand mb-0">
-        <Link to="/">B.Juravic
+        <Link to="/">
+          B.Juravic
         </Link>
       </span>
       <ul className="navbar-nav ml-auto">
