@@ -13,8 +13,6 @@ nav a {
   text-decoration: none;
   /* -webkit-text-decoration is necessary for safari */
   -webkit-text-decoration: none;
-  padding-left: 1%;
-  padding-right: 1%;
   color: #00A8E8;
   letter-spacing: 2px;
 }
@@ -32,9 +30,7 @@ nav a:hover {
 }
 
 nav a.active {
-  text-decoration: underline wavy white;
-  -webkit-text-decoration:  underline wavy white;
-  text-underline-position: under;
+  border-bottom: 2.5px dotted white;
 }
 
 nav a.active, a:hover {
