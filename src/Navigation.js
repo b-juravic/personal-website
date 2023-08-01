@@ -1,19 +1,30 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import './Navigation.css';
-import resume from "./resume.pdf";
+// import resume from "./resume.pdf";
 
 /**
  * Renders links for Home, About, Projects, and Resume
  *
  * App -> Navigation
  *
- * TODO: temporarily removed projects from nav- when ready add this back in:
+ * TODO: temporarily removed projects & resume from nav-
+ * when ready add this back in:
  * <li>
  *   <NavLink className="nav-item md-margin" to="/projects">
  *     PROJECTS
  *    </NavLink>
  * </li>
+ *
+ *  <li>
+ *     <a
+ *       className="nav-item"
+ *        href={resume}
+ *        target="_blank"
+ *        rel="noreferrer noopener">
+ *        RESUME
+ *      </a>
+ *  </li>
  */
 
 function Navigation() {
@@ -32,15 +43,6 @@ function Navigation() {
           <NavLink className="nav-item md-margin" to="/about">
             ABOUT
           </NavLink>
-        </li>
-        <li>
-          <a
-            className="nav-item"
-            href={resume}
-            target="_blank"
-            rel="noreferrer noopener">
-            RESUME
-          </a>
         </li>
       </ul>
     </nav>
